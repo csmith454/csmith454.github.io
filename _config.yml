@@ -28,7 +28,7 @@ domain: csmith454.github.io
 github_username:  csmith454
 
 # Build settings
-theme: tactile
+theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
 
