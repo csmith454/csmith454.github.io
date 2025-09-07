@@ -21,9 +21,7 @@
 title: Another graduate student's blog.
 email: colesmith828@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My name is Cole Smith.  Welcome to all the things my mind decided to get out.
-I am interested in Arctic economies, environments, and policies.  
-How will Russia and China utilize the Northern Sea Route in the next 10 years?
+  My name is Cole Smith.  Welcome to all the things my mind decided to get out.\nI am interested in Arctic economies, environments, and policies.\nHow will Russia and China utilize the Northern Sea Route in the next 10 years?
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 domain: csmith454.github.io
