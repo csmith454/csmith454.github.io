@@ -21,8 +21,7 @@
 title: Another graduate student's blog.
 email: colesmith828@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Cole is pursuing a M.A. in Russian, East European, and Eurasian Studies at the University of Texas
-    at Austin.  He is interested in how Russia's Arctic economy and industry has changed in the 21st century.  Follow along on his journey!
+    A space for change.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 domain: csmith454.github.io
@@ -47,7 +46,6 @@ defaults:
     values: 
       layout: "post"
       author: "Cole A. Smith"
-      
 
 # Exclude from processing.
 # The following items will not be processed, by default.
