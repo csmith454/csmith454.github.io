@@ -1,0 +1,22 @@
+/* Created with UT Spark - ChatGPT-4o FERPA Approved */
+/* Style the comments section container */
+#comments-section {
+  margin: 40px auto; /* Adds spacing around the comments section */
+  max-width: 800px; /* Limits width */
+  padding: 20px; /* Adds space inside the container */
+  background-color: #f9f9f9; /* Background color */
+  border: 1px solid #ddd; /* Border styling */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+}
+
+/* Optional: Center the container */
+#comments-section {
+  text-align: left; /* Align the text */
+}
+
+/* Style iframe for Utterances */
+#comments-section iframe {
+  width: 100%; /* Ensures iframe takes up full width */
+  border: none; /* Removes iframe border */
+}
