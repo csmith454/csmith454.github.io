@@ -8,7 +8,7 @@ permalink: /
     <img class="hero-photo" src="{{ site.profile.photo | relative_url }}" alt="Photo of {{ site.profile.name }}">
     <div>
       <p class="eyebrow">{{ site.profile.school }}</p>
-      <h1>Hi, I'm {{ site.profile.name }}.</h1>
+      <h1>{{ site.profile.name }}</h1>
       <p class="tagline">{{ site.profile.tagline }}</p>
       <div class="bio">
         <p>I'm pursuing an M.A. in Russian, East European, and Eurasian Studies at the University of Texas at Austin on my way to a PhD in Political Science.  I completed my B.A. in International Relations and Global Studies at UT before my M.A. and developed a keen interest in the interactions between Arctic economies and authoritarian states.  My research now focuses on the proliferation of economic statecraft in the 21st century, with my current project investigating the growth of Russia's shadow fleet and its effect on the Kremlin's crude oil supply chain.</p>
