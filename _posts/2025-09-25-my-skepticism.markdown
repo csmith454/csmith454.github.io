@@ -1,8 +1,9 @@
 ---
 layout: post
+title: "China and Russia in the Arctic"
+date: 2025-09-25
 published: true
 ---
-## China and Russia in the Arctic
 
 Is Russia struggling in the "post"-COVID economic landscape amidst nearly universal Western sanctions?  Yes, but it seems to me that the Kremlin is struggling less than it might be expected to.  Just earlier this year, billions of dollars of Kremlin capital was lost in a coordinated drone strike on a Russian airbase deep in their territory.  Moreover, a floundering(?) Great Russian Army utilized North Korean cannon fodder to attempt to hold the line with Ukraine.  Russian oil and gas in Western Europe has also taken a hit, as Western Europe chooses not to support the supply chains that may one day come to literally bite them in the butt.  
 

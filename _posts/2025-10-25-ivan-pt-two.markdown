@@ -1,9 +1,10 @@
 ---
 layout: post
+title: "Ivan, Part Two"
+date: 2025-10-25
 published: true
 ---
-
-#### A creative piece about voter intimidation
+*A creative piece about voter intimidation.*
 
 The landscape flattened in front of them. The oppressive weight on both their shoulders visibly lightened. They noted the heading for the residences, and started off.
 

@@ -1,0 +1,33 @@
+---
+layout: page
+title: Curriculum Vitae
+subtitle: The full version, always current.
+permalink: /cv/
+---
+{% assign cv = '/assets/files/cv.pdf' | relative_url %}
+
+<div class="btn-row" style="margin:0 0 20px">
+  <a class="btn primary" href="{{ cv }}" download="{{ site.profile.name | replace: ' ', '_' }}_CV.pdf">Download PDF</a>
+  <a class="btn" href="{{ cv }}" target="_blank" rel="noopener">Open in new tab</a>
+</div>
+
+<div class="cv-embed">
+  <object data="{{ cv }}?v={{ site.time | date: '%s' }}#view=FitH" type="application/pdf" aria-label="CV">
+    <p>Your browser can't display the PDF inline. <a href="{{ cv }}">Download it here</a>.</p>
+  </object>
+</div>
+
+## At a glance
+
+<div class="cv-item">
+  <div class="cv-when">2025 – present</div>
+  <div class="cv-what"><strong>M.A., Russian, East European &amp; Eurasian Studies</strong><span>The University of Texas at Austin</span></div>
+</div>
+<div class="cv-item">
+  <div class="cv-when">Year – Year</div>
+  <div class="cv-what"><strong>B.A., International Relations &amp; Global Studies</strong><span>The University of Texas at Austin</span></div>
+</div>
+<div class="cv-item">
+  <div class="cv-when">Year – Year</div>
+  <div class="cv-what"><strong>Role title</strong><span>Organization · one-line description</span></div>
+</div>

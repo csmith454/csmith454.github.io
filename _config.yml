@@ -1,66 +1,61 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Another graduate student's blog.
 email: colesmith828@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-    A space for change.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://csmith454.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: >-
+  A space for change.
+baseurl: ""
+url: "https://csmith454.github.io"
 domain: csmith454.github.io
-github_username:  csmith454
+github_username: csmith454
+author: Cole A. Smith
 
-# Build settings
+# Own layouts in _layouts/ are used; no remote theme.
+theme: null
+
+markdown: kramdown
+permalink: /blog/:year/:month/:title/
+timezone: America/Chicago
+
+# (jekyll-tabs removed: it is not supported on GitHub Pages; tabs are now built into the layout.)
 plugins:
   - jekyll-feed
-  - jekyll-tabs
-  
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
-      path: "articles"
-    values: 
+  - scope:
+      path: ""
+      type: "posts"
+    values:
       layout: "post"
       author: "Cole A. Smith"
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Gemfile~
+  - README.md
+  - LICENSE
+  - vendor
+  - _posts/_site
+
+# Navigation tabs (order matters)
+nav:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/
+  - title: CV
+    url: /cv/
+
+# Landing-page details. Edit freely.
+profile:
+  name: Cole Smith
+  tagline: M.A. candidate, Russian, East European & Eurasian Studies
+  school: The University of Texas at Austin
+  photo: /assets/images/profile.png
+  location: Austin, TX
+  github: csmith454
+  linkedin: ""

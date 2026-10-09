@@ -1,8 +1,10 @@
 ---
 layout: post
+title: "Ivan, Part One"
+date: 2025-10-10
 published: true
 ---
-## A creative piece about voter intimidation
+*A creative piece about voter intimidation.*
 
 The letterhead rang out in Ivan Alexeivitch’s head. “SemiNovotinsk Energy – Dr. Antonov” Ivan had only ever endured his time with Dr. Antonov, and Ivan was not even sure if the doctor knew who he was. Genya had given him his tea without honey this morning (the boat hadn’t come in) and the lack of sweetness in his day, now, had cause to get to him. 
 
