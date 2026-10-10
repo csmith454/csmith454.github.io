@@ -1,6 +1,6 @@
 # Site settings
 title: Another graduate student's blog.
-email: colesmith828@gmail.com
+email: cas8698@my.utexas.edu
 description: >-
   A space for change.
 baseurl: ""
@@ -49,6 +49,8 @@ nav:
     url: /blog/
   - title: CV
     url: /cv/
+  - title: Contact
+    url: /contact/
 
 # Landing-page details. Edit freely.
 profile:
@@ -58,4 +60,4 @@ profile:
   photo: /assets/images/profile.png
   location: Austin, TX
   github: csmith454
-  linkedin: ""
+  linkedin: www.linkedin.com/in/colesmith828
