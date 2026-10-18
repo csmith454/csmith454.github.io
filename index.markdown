@@ -26,7 +26,7 @@ permalink: /
     <li>
       <a class="post-card" href="{{ post.url | relative_url }}">
         <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
-        <h3>{{ post.title | default: "Untitled" }}</h3>
+        <h3>{{ post.title | default: "Untitled" | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
         <p>{{ post.content | strip_html | strip_newlines | truncatewords: 28 }}</p>
       </a>
     </li>
